@@ -1,0 +1,161 @@
+nav{
+    /* background-color: antiquewhite; */
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5.5rem;
+    font-weight: 300;
+}
+.nav-links a{
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration:none;
+    font-weight: 40;
+    margin-left: 70px;
+}
+nav .logo img{
+    width: 50px;
+    padding-left: 150px;
+}
+
+nav.btn{
+    display: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    margin: 0 10px;
+}
+
+nav ul .goal li{
+    display: none;
+}
+nav ul .goal:hover li{
+    display: block;
+    color: white;
+}
+
+nav ul a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul a:hover{
+    color: orangered;
+}
+
+.reso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: beige;
+    font-size: smaller;
+    color: blueviolet;
+    
+    
+}
+.reso select{
+    border: none;
+    outline: none;
+    border-radius: 150px;
+    width: 170px;
+    height: 30px;
+}
+
+.reso input{
+    border: none;
+    outline: none;
+    border-radius: 150px;
+    width: 180px;
+    height: 30px;
+}
+
+header .container{
+    font-size: larger;
+}
+
+button{
+    background: blue;
+    width: 150px;
+    border: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 35px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input{
+    width: 170px;
+    border: none;
+    height: 20px;
+    border-radius: 35px;
+}
+
+/*footer*/
+footer{
+    padding: 3rem 3rem;
+    background-color: black;
+    color: #f4f4f4;
+    font-weight: 300;
+}
+
+footer .footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-container > div{
+    width: 40%;
+}
+
+footer .inner-container{
+    padding-right: 70px;
+}
+
+footer img{
+    width: 40px;
+}
+
+footer h3{
+    margin-bottom: 15px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    margin-bottom: 15px;
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover, footer .social-media p i:hover{
+    color: orangered;
+}
+
+footer .socialmedia p i{
+    margin-right: 15px;
+}
+
+footer > p{
+    text-align: center;
+    margin-top: 2rem;
+    border-top: 1px solid #f4f4f4;
+    padding-top: 2rem;
+}

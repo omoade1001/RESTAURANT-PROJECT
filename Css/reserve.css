@@ -1,0 +1,70 @@
+.moon{ width: 900px;
+    float: right;
+
+}
+.moon ul li{
+    width: 200px;
+    display:inline-block;
+    align-items: center;
+    margin: 10px auto;
+    text-align:start;
+
+}
+
+.moon ul li a{
+    text-decoration:none;
+    color:whitesmoke;
+    border: none;
+    outline: none;
+    border-radius: 150px;
+    width: 170px;
+    height: 30px;
+
+}
+.moon ul a:hover{
+    color: orangered;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background: url(../Multimedia/foddi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wh{
+    width:300px;
+    height: 539px;
+    background-color: black;
+    padding: 55px;
+}
+.wh h3{
+    text-align: justify;
+    color: gray;
+    font-size:smaller;
+}
+.wh{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 40px;
+}
+
+.wh h1{
+    font-size:large;
+}
+button{
+    width: 230px;
+    height: 50px;
+    background-color: gold;
+    color: black;
+}
+.reso select{
+    width: 100px;
+    height: 50px;
+}
+.reso input{
+    width: 200px;
+    height: 30px;
+}
