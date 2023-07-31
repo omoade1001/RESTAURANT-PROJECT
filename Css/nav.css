@@ -160,6 +160,9 @@ footer > p{
     padding-top: 2rem;
 }
 @media screen and (max-width:800px){
-    .nav-links{padding: 0 2.5rem;}
+    .nav-links a{padding: 2.5rem;
+        background-color: black;
+        align-items: flex-start;
+    }
     
 }
