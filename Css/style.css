@@ -90,11 +90,24 @@ main .model .box a{
 }
 
 /*Gospel*/
-gospel{
+.gospel{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkZZdiLHjow_u1ICQ3Nz_kh7t_b-0yiDJyVw&usqp=CAU");
     background-attachment: fixed;
     background-repeat: none;
     background-position-y: 15%;
     background-position-x: 30%;
     padding: 10rem 5.5rem;
+}
+
+/* Tablet view */
+@media screen and (max-width:800px){
+    .overlay .container{padding: 0 2.5rem;}
+    
+    .model{flex-direction: column-reverse;
+    padding: 5rem 2.5rem;}
+
+    main .model .box{width: 100%;}
+
+    .gospel{background-position-x: 50%;
+    color: #f4f4f4;}
 }
