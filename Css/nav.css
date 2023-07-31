@@ -160,10 +160,6 @@ footer > p{
     padding-top: 2rem;
 }
 @media screen and (max-width:800px){
-    .overlay .container{padding: 0 2.5rem;}
+    .nav-links a{padding: 0 2.5rem;}
     
-    .model{flex-direction: column-reverse;
-    padding: 10rem 2.5rem;}
-
-    main .model .box{width: 100%;}
 }
