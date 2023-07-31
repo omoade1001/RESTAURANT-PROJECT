@@ -160,6 +160,6 @@ footer > p{
     padding-top: 2rem;
 }
 @media screen and (max-width:800px){
-    .nav-links a{padding: 0 2.5rem;}
+    .nav-links{padding: 0 2.5rem;}
     
 }
