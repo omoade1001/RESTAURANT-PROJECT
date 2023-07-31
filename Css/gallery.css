@@ -22,27 +22,27 @@ body{
     
 }
 .item1{
-    background-image: url('../Multimedia/foddi.jpg');
+    background-image: url('./Multimedia/foddi.jpg');
     grid-row-start: 1;
      grid-row-end: 4;
 }
 
 .item2{
-    background-image: url('../Multimedia/fooli.jpg');
+    background-image: url('./Multimedia/fooli.jpg');
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 3;
 }
 .item3{
-    background-image: url('../Multimedia/food.jpg');
+    background-image: url('./Multimedia/food.jpg');
     grid-row-start: 3;
     grid-row-end: 5;
     grid-column-start: 3;
     grid-column-end: 4;
 }
 .item4{
-    background-image: url('../Multimedia/waffle-hearts-2697904_640.jpg');
+    background-image: url('./Multimedia/waffle-hearts-2697904_640.jpg');
 
 
 }
